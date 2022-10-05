@@ -1,7 +1,7 @@
 name: Python application test with gitHub Actions
 on: [push]
-jobs
-  builds:
+jobs: 
+  build:
     runs-ons: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
